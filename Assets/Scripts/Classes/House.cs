@@ -7,6 +7,8 @@
  
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class House
 {
@@ -33,8 +35,8 @@ public class House
 	/// <summary>
 	/// 户型图片
 	/// </summary>
-	private string m_image;
-	public string Image
+	private Sprite m_image;
+	public Sprite Image
 	{
 	  get { return m_image;}
 	  set { m_image = value;}
@@ -51,6 +53,26 @@ public class House
 	}
 
 	/// <summary>
+	/// 户型价格
+	/// </summary>
+	private string m_price;
+	public string Price 
+	{
+	  get { return m_price;}
+	  set { m_price = value;}
+	}
+
+	/// <summary>
+	/// 户型面积
+	/// </summary>
+	private string m_square;
+	public string Square 
+	{
+	  get { return m_square;}
+	  set { m_square = value;}
+	}
+
+	/// <summary>
 	/// 户型场景资源
 	/// </summary>
 	private string m_resource;
@@ -58,5 +80,14 @@ public class House
 	{
 	  get { return m_resource;}
 	  set { m_resource = value;}
+	}
+
+	/// <summary>
+	/// 户型风格定义	/// </summary>
+	private List<Style> m_styles;
+	public List<Style> Styles 
+	{
+	  get { return m_styles;}
+	  set { m_styles = value;}
 	}
 }

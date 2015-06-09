@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Buildings>
+  <Building ID="0001" Name="宝湖天下">
+  	<Description>银帝宝湖天下坐落于银川宝湖国家级城市湿地公园内，西靠正源南街，北至城市轻轨。国家级城市湿地公园、银川平原绿色飘带之称的艾伊河及联合国人居示范工程的唐徕水系环绕四周，拥有优厚的自然景观资源。</Description>
+  	<Address>金凤区正源南街以东宝湖西路以北宝湖公园西侧</Address>
+  	<Route>公交车39路、32路、40路、9路</Route>
+  	<DriveTime>约20分钟左右</DriveTime>
+  	<Cover>__test/12</Cover>
+  	<Small>__test/12</Small>
+  	<Resource></Resource>
+  	<Houses>
+  	  <House ID="000101" Name="户型A">
+  	    <Square>90平米</Square>
+  	    <Price>5210元/平米</Price>
+  	  	<Image>__test/12</Image>
+  	  	<Description>测试描述信息</Description>
+  	  	<Resource></Resource>
+  	  	<Styles>
+  	  		<Style ID="00001" Name="风格1">
+  	  			<Resource></Resource>
+  	  		</Style>
+  	  	</Styles>
+  	  </House>
+  	</Houses>
+  </Building>
+</Buildings>  
